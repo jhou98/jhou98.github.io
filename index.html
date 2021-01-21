@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jacks Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">   
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--Header-->
+        <section class="heading" id="heading">
+            <h1 class="section_title--heading">Jack Hou</h1>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#heading" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#experiences" class="nav_link">Experiences</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                </ul>
+            </nav> 
+            <p class="section-subtitle--heading">Computer Engineer</p>
+        </section>
+
+        <!--About Me-->
+        <section class="about" id="about">
+            <div class="about-grid"> 
+                <div>
+                    <img src="./img/profile.jpg" class="profile-img">
+                </div>
+                <div>
+                    <p class="about-text">Hi there! My name is Jack and I am a 
+                    Computer Engineering Student from UBC. In my free time, I like to 
+                    play Ultimate frisbee, game and trade xd. Browsing reddit is fun 
+                    too. </p>
+                    <!--Socials-->
+                    <ul class="icons">
+                        <li>Socials:</li>
+                        <li><a href="https://github.com/jhou98"><i class="fab fa-github"></a></i></li>
+                        <li><a href="https://www.linkedin.com/in/jackhouu/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="mailto:jackhou1998@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section class="skills" id="skills">
+            <h2 class="section_title--skills">Skills</h2>
+            <div class="skills_section" >
+                <div class="skill">
+                    <ul>
+                        <li><h3>Programming Languages:</h3></li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>C++</li>
+                    <ul>
+                </div>
+                <div class="skill">
+                    <ul>
+                        <li><h3>Web Programming:</h3></li>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <ul>
+                        <li><h3>Other:</h3></li>
+                        <li>AWS</li>
+                        <li>SQL/PostgreSQL</li>
+                        <li>NoSQL</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+            </div>    
+        </section>
+
+        <!--Experiences-->
+        <section class="experiences" id="experiences">
+            <h2 class="section_title">Experiences</h2>
+                <!-- <div class="row">
+                    <div class="column">
+                        <img src="./img/cic_logo.png">
+                    </div> 
+                    <div class="column">
+                        <img src="./img/atr_logo.png">
+                    </div>
+                    <div class="column">
+                        <img src="./img/cerc_logo.png">
+                    </div>
+                    <div class="column">
+                        <img src="./img/canfor_logo.png">
+                    </div>
+                </div>  -->
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <a href="https://cic.ubc.ca/"><img src="./img/cic_logo.png" class="work-img"></a>
+                    </div>
+                    <div class="carousel-item">
+                    <a href="https://www.atr.jp/index_e.html"><img src="./img/atr_logo.png" class="work-img"></a>
+                    </div>
+                    <div class="carousel-item">
+                    <a href="https://cerc.ubc.ca/"><img src="./img/cerc_logo.png" class="work-img"></a>
+                    </div>
+                    <div class="carousel-item">
+                    <a href="https://www.canfor.com/"><img src="./img/canfor_logo.png" class="work-img"></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+        </section>
+
+        <!--Projects-->
+        <section class="projects" id="projects">
+            <h2 class="section-title--projects">Projects</h2>
+            <div>
+                <div class="project-portfolio">
+                    <h3>MRI Project:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum metus felis, ut dictum mauris suscipit eu. Proin at lectus rutrum, tempor nulla eu, consequat mi. Nunc fermentum ultricies augue, a molestie orci hendrerit mattis. Curabitur fringilla varius nibh vitae euismod. Maecenas mi augue, porta at auctor laoreet, tempus vitae purus. Curabitur ut fringilla nibh. Suspendisse ipsum justo, dapibus ut auctor ut, auctor non massa. Vestibulum nec vulputate tellus.
+                    </p>
+                </div>
+                <div class="project-portfolio">
+                    <h3>UoT Project:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum metus felis, ut dictum mauris suscipit eu. Proin at lectus rutrum, tempor nulla eu, consequat mi. Nunc fermentum ultricies augue, a molestie orci hendrerit mattis. Curabitur fringilla varius nibh vitae euismod. Maecenas mi augue, porta at auctor laoreet, tempus vitae purus. Curabitur ut fringilla nibh. Suspendisse ipsum justo, dapibus ut auctor ut, auctor non massa. Vestibulum nec vulputate tellus.
+                    </p>
+                </div>
+                <div class="project-portfolio">
+                    <h3>Personal Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum metus felis, ut dictum mauris suscipit eu. Proin at lectus rutrum, tempor nulla eu, consequat mi. Nunc fermentum ultricies augue, a molestie orci hendrerit mattis. Curabitur fringilla varius nibh vitae euismod. Maecenas mi augue, porta at auctor laoreet, tempus vitae purus. Curabitur ut fringilla nibh. Suspendisse ipsum justo, dapibus ut auctor ut, auctor non massa. Vestibulum nec vulputate tellus.
+                    </p>
+                </div>
+                <div class="project-portfolio">
+                    <h3>Personal Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum metus felis, ut dictum mauris suscipit eu. Proin at lectus rutrum, tempor nulla eu, consequat mi. Nunc fermentum ultricies augue, a molestie orci hendrerit mattis. Curabitur fringilla varius nibh vitae euismod. Maecenas mi augue, porta at auctor laoreet, tempus vitae purus. Curabitur ut fringilla nibh. Suspendisse ipsum justo, dapibus ut auctor ut, auctor non massa. Vestibulum nec vulputate tellus.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>    </body>
+</html>
