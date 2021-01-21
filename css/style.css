@@ -328,6 +328,9 @@ ul.icons a {
 
 .project-grid img {
     border: 1px solid var(--clr-accent);
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
 }
 
 .projects h3 {
@@ -340,6 +343,16 @@ ul.icons a {
         display: grid; 
         grid-template-columns: 1fr 2fr;
         grid-gap: 1em;
+    }
+
+    .project-grid {
+        height: 200px;
+    }
+}
+
+@media (min-width: 1100px){
+    .project-grid img {
+        height: 300px;
     }
 }
 
