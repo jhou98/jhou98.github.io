@@ -168,15 +168,14 @@ header {
 
 .section-title {
     margin-bottom: .25em; 
-    color: var(--clr-accent);
+    color: var(--clr-dark);
 }
 
 .section-title--heading{
     font-weight: var(--fw-reg);
 }
 
-.section-title--skills,
-.section-title--projects {
+.section-title--skills {
     color: var(--clr-accent);
     position: relative; 
 }
@@ -193,11 +192,11 @@ header {
     background: var(--clr-accent);
 }
 
-.section_title--skills {
+.section-title--skills {
     text-align: center;
 }
 
-.section_title--skills::after{
+.section-title--skills::after{
     content: '';
     display: block;
     width: 2em; 
@@ -315,6 +314,9 @@ ul.icons a {
 .carousel {
     height: 100px;
 }
+
+/* Projects */ 
+
 
 
 
