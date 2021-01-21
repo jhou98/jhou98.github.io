@@ -36,13 +36,15 @@
                 <div>
                     <p class="about-text">Hi there! My name is Jack and I am a 
                     Computer Engineering student graduating from UBC in May 2021.
-                    I have a focus in backend programming and working with cloud architecture.</p>
+                    I have a focus in backend programming and working with cloud architecture.
+                    During my free time, other than programming, I like to play Ultimate frisbee, 
+                    video games, and trade stocks.</p>
                     <!--Socials-->
                     <ul class="icons">
-                        <li><a href="https://github.com/jhou98"><i class="fab fa-github"></a></i></li>
-                        <li><a href="https://www.linkedin.com/in/jackhouu/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/jhou98" target="_blank"><i class="fab fa-github"></a></i></li>
+                        <li><a href="https://www.linkedin.com/in/jackhouu/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                         <li><a href="mailto:jackhou1998@gmail.com"><i class="fas fa-envelope"></i></a></li>
-                        <li><a href="./assets/ResumeJackHou"><i class="fas fa-file"></i></a></li>
+                        <!-- <li><a href=""><i class="fas fa-file"></i></a></li> --> 
                     </ul>
                 </div>
             </div>
@@ -90,16 +92,16 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <a href="https://cic.ubc.ca/"><img src="./assets/cic_logo.png" class="work-img"></a>
+                    <a href="https://cic.ubc.ca/" target="_blank"><img src="./assets/cic_logo.png" class="work-img"></a>
                     </div>
                     <div class="carousel-item">
-                    <a href="https://www.atr.jp/index_e.html"><img src="./assets/atr_logo.png" class="work-img"></a>
+                    <a href="https://www.atr.jp/index_e.html" target="_blank"><img src="./assets/atr_logo.png" class="work-img"></a>
                     </div>
                     <div class="carousel-item">
-                    <a href="https://cerc.ubc.ca/"><img src="./assets/cerc_logo.png" class="work-img"></a>
+                    <a href="https://cerc.ubc.ca/" target="_blank"><img src="./assets/cerc_logo.png" class="work-img"></a>
                     </div>
                     <div class="carousel-item">
-                    <a href="https://www.canfor.com/"><img src="./assets/canfor_logo.png" class="work-img"></a>
+                    <a href="https://www.canfor.com/" target="_blank"><img src="./assets/canfor_logo.png" class="work-img"></a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -117,29 +119,56 @@
         <section class="projects" id="projects">
             <h2 class="section-title--projects">Projects</h2>
             <div>
-                <div class="project-portfolio">
-                    <h3>MRI Project:</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum metus felis, ut dictum mauris suscipit eu. Proin at lectus rutrum, tempor nulla eu, consequat mi. Nunc fermentum ultricies augue, a molestie orci hendrerit mattis. Curabitur fringilla varius nibh vitae euismod. Maecenas mi augue, porta at auctor laoreet, tempus vitae purus. Curabitur ut fringilla nibh. Suspendisse ipsum justo, dapibus ut auctor ut, auctor non massa. Vestibulum nec vulputate tellus.
-                    </p>
-                </div>
-                <div class="project-portfolio">
-                    <h3>UoT Project:</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum metus felis, ut dictum mauris suscipit eu. Proin at lectus rutrum, tempor nulla eu, consequat mi. Nunc fermentum ultricies augue, a molestie orci hendrerit mattis. Curabitur fringilla varius nibh vitae euismod. Maecenas mi augue, porta at auctor laoreet, tempus vitae purus. Curabitur ut fringilla nibh. Suspendisse ipsum justo, dapibus ut auctor ut, auctor non massa. Vestibulum nec vulputate tellus.
-                    </p>
-                </div>
-                <div class="project-portfolio">
-                    <h3>Personal Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum metus felis, ut dictum mauris suscipit eu. Proin at lectus rutrum, tempor nulla eu, consequat mi. Nunc fermentum ultricies augue, a molestie orci hendrerit mattis. Curabitur fringilla varius nibh vitae euismod. Maecenas mi augue, porta at auctor laoreet, tempus vitae purus. Curabitur ut fringilla nibh. Suspendisse ipsum justo, dapibus ut auctor ut, auctor non massa. Vestibulum nec vulputate tellus.
-                    </p>
-                </div>
-                <div class="project-portfolio">
-                    <h3>Personal Project 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum metus felis, ut dictum mauris suscipit eu. Proin at lectus rutrum, tempor nulla eu, consequat mi. Nunc fermentum ultricies augue, a molestie orci hendrerit mattis. Curabitur fringilla varius nibh vitae euismod. Maecenas mi augue, porta at auctor laoreet, tempus vitae purus. Curabitur ut fringilla nibh. Suspendisse ipsum justo, dapibus ut auctor ut, auctor non massa. Vestibulum nec vulputate tellus.
-                    </p>
+                <div class="project-grid">
+                    <div>
+                        <img src="./assets/mri_sc.jpg">
+                        <h3>MRI Project</h3>
+                    </div>
+                    <div class="project-portfolio">
+                        <p><i><b>Technology Stack:</b></i> AWS Lambda, Cloudformation, Comprehend and Comprehend Medical, EC2, PostgreSQL, Amplify, S3, Python, React
+                        <br/><br/>
+                        <i><b>Summary:</b></i> A web application that would take in MRI request forms and process the information, returning an accurate prioritization value for the request to optimize efficiency and reduce wait times. 
+                        More information can be found <a href="https://cic.ubc.ca/projects/vch-mri-project-cant-wait/" target="_blank">here</a>.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./assets/uot_sc.png">
+                        <h3>UoT Project</h3>
+                    </div>
+                    <div class="project-portfolio">
+                        <p><i><b>Technology Stack:</b></i> AWS Lambda, DynamoDB, Textract, S3, Amplify, Python, React
+                        <br/><br/>
+                        <i><b>Summary:</b></i> The UoT project is a web application that takes in tabular-formatted data, from PDF or from image files, the former of which could span multiple pages, and converting it into a csv format. This process reduces the time needed to gather and transfer information manually.
+                        More information can be found <a href="https://cic.ubc.ca/projects/university-of-toronto-mississauga-economic-data-extraction/" target="_blank">here</a>.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./assets/bubble_sc.png">
+                        <h3>Bubble</h3>
+                    </div>
+                    <div class="project-portfolio">
+                        <p><i><b>Technology Stack:</b></i> Google Cloud and App Engine, Java, Golang, Firebase, Google Maps API
+                        <br/><br/>
+                        <i><b>Summary:</b></i> Bubble is a location-based Android application that was created as a group of 4 for a Software Engineering course. The goal of the application was to encourage an active lifestyle through exploring local areas by allowing users to capture, edit and post pictures that have a view radius that we termed Bubble. Other users on the app would be able to see the existence of other Bubbles but would only be able to view them once they were within the post’s radius. This radius would grow according to the amount of likes it has, making more popular posts easier to see.  Additional features that we included was a following system with notifications, as well as a global leaderboard. 
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./assets/smartlock_sc.png">
+                        <h3>Smartlock</h3>
+                    </div>
+                    <div class="project-portfolio">
+                        <p><p><i><b>Technology Stack:</b></i> Python, Java, HTML / CSS, JavaScript, MySQL
+                        <br/><br/>
+                        <i><b>Summary:</b></i> For my second-year engineering project course, my group created a smart lock controlled by a Raspberry Pi with the following features – facial recognition, touchscreen keypad on LCD screen, door access alert, real-time voice messaging from the lock to the homeowner, and remote monitor and control through a web interface and android application. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <footer>
+            <a href='#heading'>Back to top</a>
+        </footer>
         <script src="js/index.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>    </body>
