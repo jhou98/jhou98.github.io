@@ -343,6 +343,10 @@ ul.icons a {
     color: var(--clr-accent);
 }
 
+.project-portfolio a {
+    color: var(--clr-accent);
+}
+
 @media (min-width: 800px){
     .project-grid {
         display: grid; 
